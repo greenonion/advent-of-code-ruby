@@ -1,0 +1,23 @@
+#!/usr/bin/env ruby
+
+require "date"
+require "thor"
+require_relative "../lib/runner"
+
+class Run < Thor
+  def self.exit_on_failure?
+    true
+  end
+
+  desc "solve YYYY/DD PART", "Solve the PART for a specific YEAR and DAY"
+  def solve(date, part)
+    parsed_date = /(\d{4})\/(\d{1,2})/.match(date)
+    if parsed_date.nil?
+      puts "Please supply date in YYYY/DD format!"
+    else
+      Runner.new(parsed_date[1], parsed_date[2], part).solve!
+    end
+  end
+end
+
+Run.start
