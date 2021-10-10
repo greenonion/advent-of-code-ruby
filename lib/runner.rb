@@ -11,7 +11,7 @@ class Runner
     puts "Solving part #{part} of year #{year} and day #{day}"
     require_relative "#{year}/day#{day}"
 
-    solver = Object.const_get('Day01').new
+    solver = Object.const_get("Day#{day}").new
     if part == 1
       puts solver.part1
     else

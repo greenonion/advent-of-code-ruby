@@ -1,3 +1,4 @@
+require 'spec_helper'
 require_relative '../../lib/2020/day01'
 
 RSpec.describe 'Day 1' do

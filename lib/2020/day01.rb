@@ -2,7 +2,7 @@ class Day01
   attr_reader :entries
 
   def initialize(entries = nil)
-    entries ||= File.read('inputs/day1')
+    entries ||= File.read('inputs/2020/day1')
     @entries = entries.split.map(&:to_i)
   end
 
