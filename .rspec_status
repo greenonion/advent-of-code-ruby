@@ -1,8 +1,0 @@
-example_id                         | status  | run_time        |
----------------------------------- | ------- | --------------- |
-./spec/2020/day01_spec.rb[1:1:1]   | unknown |                 |
-./spec/2020/day01_spec.rb[1:2:1]   | passed  | 0.00109 seconds |
-./spec/2020/day02_spec.rb[1:1:1:1] | passed  | 0.00181 seconds |
-./spec/2020/day02_spec.rb[1:1:2:1] | passed  | 0.0008 seconds  |
-./spec/2020/day02_spec.rb[1:2:1:1] | passed  | 0.0014 seconds  |
-./spec/2020/day02_spec.rb[1:2:2:1] | passed  | 0.00086 seconds |
