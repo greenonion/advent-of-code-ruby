@@ -9,3 +9,4 @@ gem "pry-byebug"
 gem "thor"
 gem "rubocop"
 gem "rspec"
+gem "solargraph", group: :development
