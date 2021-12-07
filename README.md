@@ -13,4 +13,5 @@ $ bin/run solve 2021/02 2
 ## License
 
 Copyright (c) 2021 Nikos Fertakis
+
 This project is licensed under the MIT License.
